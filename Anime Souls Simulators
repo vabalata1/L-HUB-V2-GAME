@@ -1,0 +1,1786 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "👎 L-Hub 👎", HidePremium = true, SaveConfig = true, IntroText = "👎 L-Hub 👎"})
+
+wait(0.01)
+
+-- Values
+_G.autoClick = true
+_G.autoClaimReward = true
+_G.attackMob = true
+_G.autoClass = true
+_G.autoSkill = true
+_G.autoClaimAch = true
+_G.autoClaimQuest = true
+_G.autoUseLuckyP = true
+_G.autoUseEnergyP = true
+_G.autoUseDamageP = true
+_G.autoUseSoulsP = true
+_G.autoUpgSword = true
+_G.AutoDeleteCommon = true
+_G.AutoDeleteUncommon = true
+_G.AutoDeleteRare = true
+_G.AutoDeleteEpic = true
+_G.AutoDeleteLegendary = true
+_G.autoattackWB = true
+_G.autoattackBEERUS = true
+_G.autoattackBEERUS = true
+_G.autoattackNSP = true
+_G.autoattackEFF = true
+_G.autoBuyPassive = true
+_G.autoBuyAuras = true
+
+-- Functions
+
+function autoBuyPassive()
+	while _G.autoBuyPassive == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"PassiveRoll"})
+	wait(0.01)
+end
+end
+
+function autoBuyAuras()
+	while _G.autoBuyAuras == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Auras"})
+	wait(0.01)
+end
+end 
+
+function useAllCodes()
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","5MVISITS"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","25klikes"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","UPDATE2"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","15klikes"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","sorryforshutdowns"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","UPD1.5"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","10kactives"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","update1"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","10kfavorites"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","5kfavorites"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","l3ni"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","150KMEMBERS"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","1MVISITS"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","10KLIKES"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","leozimgamers"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","freespins"})
+    wait(0.7)
+    game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","OPENSAMU"})
+	wait(0.7)
+	game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","update3"})
+	wait(0.7)
+	game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","35klikes"})
+	wait(0.7)
+	game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Codes","emperadormaxiyt"})
+    wait(1)
+end
+
+function autoattackEFF()
+	while _G.autoattackEFF == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._RAID_BOSSES.eren_final})
+		wait(0.01)
+	end
+end
+
+function autoattackNSP()
+	while _G.autoattackNSP == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._RAID_BOSSES.naruto_six_paths})
+		wait(0.01)
+	end
+end
+
+function autoattackWB()
+	while _G.autoattackWB == true do
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._RAID_BOSSES.whitebeard})
+wait(0.01)
+	end
+end
+
+function autoattackBEERUS()
+	while _G.autoattackBEERUS == true do
+	game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._RAID_BOSSES.beerus})
+		wait(0.01)
+	end
+end
+
+function  attackAllPyecy()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/SHWtcM1Q'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllLeaf()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/9N91r20n'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllNomak()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/U87QVgyC'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllTitan()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/kwRT0L01'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllHunter()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/URTv9w2k'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllSins()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/5e5NXsxD'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllSlime()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/y0wCfNTn'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllChainsaw()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/xjqtxPBX'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllSlayer()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/R7USmajB'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllJojo()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/pVLqesfr'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllHollow()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/zij8QT90'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllAcademy()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/Na7gTR80'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllXYZ()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/pmehfSi9'),true))()
+		wait(100000000000)
+	end
+end
+
+function  attackAllClover()
+	while _G.attackMob == true do
+		loadstring(game:HttpGet(('https://pastebin.com/raw/Ek7r1ar3'),true))()
+		wait(100000000000)
+	end
+end
+
+function  WhiteBeard()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-421.761322, 6.29829931, 899.093811, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		wait(0.05)
+	end
+end
+
+function  NarutoSP()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3390.01538, -1.84495544, 840.135254, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		wait(0.05)
+	end
+end
+
+function  Beerus()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6387.17969, -5.49783134, 763.371521, -0.859128833, 0, 0.5117594, 0, 1, 0, -0.5117594, 0, -0.859128833)
+		wait(0.05)
+	end
+end
+
+function  ErenFinal()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9405.2832, 8.96419239, 819.103638, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		wait(0.05)
+	end
+end
+
+function  GonAdult()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12254.3457, 1.07653999, 1034.28101, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		wait(0.05)
+	end
+end
+
+function  MeliodasDemon()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-15421.9287, 9.10907078, 1498.8811, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+		wait(0.05)
+	end
+end
+
+function  Rimuru()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-18360.7949, 6.7387538, 785.800842, 0.766061246, -0, -0.642767608, 0, 1, -0, 0.642767608, 0, 0.766061246)
+		wait(0.05)
+	end
+end
+
+
+
+function  Ekune()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-509.227203, 5.3125, 846.939758, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+		wait(0.05)
+	end
+end
+
+function  Mydera()
+		while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3509.19385, -3.25, 1006.58081, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Leaf Village"].madara})
+		wait(0.05)
+	end
+end
+
+function  Buu()
+	while _G.attackMob == true do
+		 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6463.68457, -6.875, 768.70166, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Planet Nomak"].boo})
+		wait(0.05)
+	end
+end
+
+function  ColossalGiant()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9401.44238, -2, 932.437927, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Titan District"].colossal_titan})
+		wait(0.05)
+	end
+end
+
+function  Khroddo()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12158.708, -0.974687099, 673.596619, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Hunter City"].chrollo})
+		wait(0.05)
+	end
+end
+
+function  Zoydris()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-15222.8799, 8.01309776, 1645.71008, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Sins Kingdom"].zeldris})
+		wait(0.05)
+	end
+end
+
+function  Cleison()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-18486.666, 5.87229013, 687.594727, -0.930243134, 0, -0.366943747, 0, 1, 0, 0.366943747, 0, -0.930243134)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Slime Forest"].clayman})
+		wait(0.05)
+	end
+end
+
+function  Makina()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21273.0781, -0.00285499543, 483.691193, -0.819152057, -8.43749376e-11, 0.573576391, -8.00940703e-11, 1, 3.27170339e-11, -0.573576391, -1.9139846e-11, -0.819152057)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Chainsaw City"].makima})
+		wait(0.05)
+	end
+end
+
+function  Muzan()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-24170.8379, 2.96962452, 706.002075, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Slayer Village"].muzan})
+		wait(0.05)
+	end
+end
+
+function  Dio()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27413.0137, 11.8094978, 844.794922, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Bizarre Town"].dio})
+		wait(0.05)
+	end
+end
+
+function  Toshyro()
+	while _G.attackMob == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30378.1523, 18.9276733, 583.5495, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Hollow Dimension"].toushirou})
+		wait(0.05)
+	end
+end
+
+function  DekuOFA()
+	while _G.attackMob == true do
+
+		for i,v in pairs(game:GetService("Workspace")["_ENEMIES"]["Academy Zone"]:GetChildren()) do
+			if v.Name == "deku_ofa" and v:IsA('Model') then
+				for i,v in pairs(v:GetChildren()) do
+					if v.Name == "HumanoidRootPart" and v:IsA('Part') then
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+					end
+				end
+			end
+		end
+
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30378.1523, 18.9276733, 583.5495, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Academy Zone"].deku_ofa})
+		wait(0.05)
+	end
+end
+
+function Garou()
+	while _G.attackMob == true do
+
+		for i,v in pairs(game:GetService("Workspace")["_ENEMIES"]["XYZ Province"]:GetChildren()) do
+			if v.Name == "garou" and v:IsA('Model') then
+				for i,v in pairs(v:GetChildren()) do
+					if v.Name == "HumanoidRootPart" and v:IsA('Part') then
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+					end
+				end
+			end
+		end
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["XYZ Province"].garou})
+		wait(0.05)
+	end
+end
+
+function Yami()
+	while _G.attackMob == true do
+
+		for i,v in pairs(game:GetService("Workspace")["_ENEMIES"]["Clover Kingdom"]:GetChildren()) do
+			if v.Name == "yami" and v:IsA('Model') then
+				for i,v in pairs(v:GetChildren()) do
+					if v.Name == "HumanoidRootPart" and v:IsA('Part') then
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+					end
+				end
+			end
+		end
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit",workspace._ENEMIES["Clover Kingdom"].yami})
+		wait(0.05)
+	end
+end
+
+function autoClick()
+	while _G.autoClick == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Hit"})
+		wait(0.01)
+	 end
+	end
+
+function autoUpgSword()
+	while _G.autoUpgSword == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Swords"})
+		wait(0.01)
+	end
+end
+
+function autoClaimQuest()
+	while _G.autoClaimQuest == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Quest"})
+		wait(0.01)
+	end
+end
+
+function autoSkill()
+    while _G.autoSkill == true do
+        game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"SkillSpin"})
+        wait(10)
+    end
+end
+
+function autoClaimAch()
+	while _G.autoClaimAch == true do
+	loadstring(game:HttpGet(('https://pastebin.com/raw/F3eKmzdP')))()
+	wait(1)
+	end
+end
+
+function autoClass()
+	while _G.autoClass == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Class"})
+		wait(10)
+	 end
+		end
+
+function autoClaimReward()
+	while _G.autoClaimReward == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"GroupRewards"})
+	 wait(10)
+	end
+end
+
+-- Tabs
+
+local HomeTab = Window:MakeTab({
+	Name = "Home",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+HomeTab:AddLabel("WELCOME TO KYKO HUB!")
+HomeTab:AddParagraph("QUICK REMINDER:","Please always TP to the island where you autofarm/anything on it BEFORE enable it.")
+OrionLib:MakeNotification({
+	Name = "If you have bugs/suggestions!",
+	Content = "Discord: .gg/srh43uxcVG",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+
+local AutomaticsTab = Window:MakeTab({
+	Name = "Automatics",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local UtiTab = Window:MakeTab({
+	Name = "Utilities",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local FarmTab = Window:MakeTab({
+	Name = "Farming",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local RaidBTab = Window:MakeTab({
+	Name = "Bosses",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local MeteorsTab = Window:MakeTab({
+	Name = "Meteors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+MeteorsTab:AddLabel("NOTE: Meteors has been reworked, should be working now.")
+
+local EggsTab = Window:MakeTab({
+	Name = "Eggs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+EggsTab:AddLabel("NOTE: Zones have to be unlocked")
+
+
+local TPTab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local PotionsTab = Window:MakeTab({
+	Name = "Potions",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- local TrialTab = Window:MakeTab({
+-- 	Name = "Trials",
+-- 	Icon = "rbxassetid://4483345998",
+-- 	PremiumOnly = false
+-- })
+
+local WBTab = Window:MakeTab({
+	Name = "Webhooks",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- Buttons
+
+UtiTab:AddButton({
+	Name = "Rejoin",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
+    end    
+})
+
+UtiTab:AddButton({
+	Name = "Server Hop",
+	Callback = function()
+		local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+
+		module:Teleport(game.PlaceId)
+    end    
+})
+
+UtiTab:AddButton({
+	Name = "Use All Codes",
+	Callback = function()
+		useAllCodes()
+	end    
+})
+
+
+
+
+-- Labels
+
+FarmTab:AddLabel("CHOOSE A MOB:")
+
+----------------------------------------------------PYECY VILLAGE---------------------------------------------------------
+FarmTab:AddLabel("Pyecy Village:")
+
+_G.selectedMobPyecy = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"crocodile", "mihawk", "aokiji", "kizaru"},
+	Callback = function(Value)
+		_G.selectedMobPyecy = Value
+	end
+})
+
+function autoFarmPyecy()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/cUJte4SZ')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmPyecy()
+    end
+})
+
+-------------------------------------------------------LEAF VILLAGE------------------------------------------------------
+FarmTab:AddLabel("Leaf Village:")
+
+_G.selectedMobLeaf = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"zabuza", "pain", "orochimaru", "obito"},
+	Callback = function(Value)
+		_G.selectedMobLeaf = Value
+	end
+})
+
+function autoFarmLeaf()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/1HLwPv6P')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmLeaf()
+    end
+})
+
+-------------------------------------------------------PLANET NOMAK:------------------------------------------------------
+FarmTab:AddLabel("Planet Nomak:")
+
+_G.selectedMobNomak = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"nappa", "raditz", "frieza", "cell"},
+	Callback = function(Value)
+		_G.selectedMobNomak = Value
+	end
+})
+
+function autoFarmNomak()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/WfTT5tkq')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmNomak()
+    end
+})
+-------------------------------------------------------TITAN DISTRICT:------------------------------------------------------
+FarmTab:AddLabel("Titan District:")
+
+_G.selectedMobTitan = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"beast_titan", "female_titan", "armored_titan", "jaw_titan"},
+	Callback = function(Value)
+		_G.selectedMobTitan = Value
+	end
+})
+
+function autoFarmTitan()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/vY6ftF1E')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmTitan()
+    end
+})
+-------------------------------------------------------HUNTER CITY:------------------------------------------------------
+FarmTab:AddLabel("Hunter City:")
+
+_G.selectedMobHunter = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"killua", "gon", "pitou", "hisoka"},
+	Callback = function(Value)
+		_G.selectedMobHunter = Value
+	end
+})
+
+function autoFarmHunter()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/vfXNbdBf')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmHunter()
+    end
+})
+-------------------------------------------------------SINS KINGDOM:------------------------------------------------------
+FarmTab:AddLabel("Sins Kingdom:")
+
+_G.selectedMobSins = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"fraudin", "galand", "derieri", "estarossa"},
+	Callback = function(Value)
+		_G.selectedMobSins = Value
+	end
+})
+
+function autoFarmSins()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/u2JmdCWq')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmSins()
+    end
+})
+-------------------------------------------------------SLIME FOREST:------------------------------------------------------
+FarmTab:AddLabel("Slime Forest:")
+
+_G.selectedMobSlime = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"goblin", "knight", "geld", "hinata"},
+	Callback = function(Value)
+		_G.selectedMobSlime = Value
+	end
+})
+
+function autoFarmSlime()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/FXRY0fCH')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmSlime()
+    end
+})
+-------------------------------------------------------CHAINSAW CITY:------------------------------------------------------
+FarmTab:AddLabel("Chainsaw City:")
+
+_G.selectedMobChainsaw = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"arai", "aki", "power", "denji"},
+	Callback = function(Value)
+		_G.selectedMobChainsaw = Value
+	end
+})
+
+function autoFarmChainsaw()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/BKDwmgKY')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmChainsaw()
+    end
+})
+-------------------------------------------------------SLAYER VILLAGE:------------------------------------------------------
+FarmTab:AddLabel("Slayer Village:")
+
+_G.selectedMobSlayer = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"tanjiro", "rengoku", "uzui", "kokushibo"},
+	Callback = function(Value)
+		_G.selectedMobSlayer = Value
+	end
+})
+
+function autoFarmSlayer()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/tfXWCDAG')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmSlayer()
+    end
+})
+-------------------------------------------------------SLAYER VILLAGE:------------------------------------------------------
+FarmTab:AddLabel("Bizzare Town:")
+
+_G.selectedMobJojo = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"jonathan", "josuke", "kars", "jotaro"},
+	Callback = function(Value)
+		_G.selectedMobJojo = Value
+	end
+})
+
+function autoFarmJojo()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/MHPMwX36')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmJojo()
+    end
+})
+
+-------------------------------------------------------SLAYER VILLAGE:------------------------------------------------------
+FarmTab:AddLabel("Hollow Dimension:")
+
+_G.selectedMobHollow = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"renji", "rukia", "uryu", "byakuya"},
+	Callback = function(Value)
+		_G.selectedMobHollow = Value
+	end
+})
+
+function autoFarmHollow()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/6bGATx3y')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmHollow()
+    end
+})
+
+-------------------------------------------------------SLAYER VILLAGE:------------------------------------------------------
+FarmTab:AddLabel("Academy Zone:")
+
+_G.selectedMobAcademy = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"bakugo", "deku", "todoroki", "uraraka"},
+	Callback = function(Value)
+		_G.selectedMobAcademy = Value
+	end
+})
+-- boss: deku_ofa
+
+function autoFarmAcademy()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/xEHrttTH')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmAcademy()
+    end
+})
+
+-------------------------------------------------------SLAYER VILLAGE:------------------------------------------------------
+
+FarmTab:AddLabel("XYZ Province:")
+
+_G.selectedMobXYZ = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"vaccine_man", "mosquito", "boros", "sea_king"},
+	Callback = function(Value)
+		_G.selectedMobXYZ = Value
+	end
+})
+-- boss: garou
+
+function autoFarmXYZ()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/jH5jqNxC')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmXYZ()
+    end
+})
+
+-------------------------------------------------------SLAYER VILLAGE:------------------------------------------------------
+
+FarmTab:AddLabel("Clover Kingdom:")
+
+_G.selectedMobClover = ""
+
+FarmTab:AddDropdown({
+	Name = "Selected a Mob",
+	Default = "None",
+	Options = {"vanessa", "noelle", "yuno", "magna"},
+	Callback = function(Value)
+		_G.selectedMobClover = Value
+	end
+})
+-- boss: yami
+
+function autoFarmClover()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/EgT9j4dv')))()
+end
+
+FarmTab:AddToggle({
+	Name = "Enable AutoFarm",
+	Default = false,
+	Callback = function(Value)
+        getgenv().bandit = Value
+        autoFarmClover()
+    end
+})
+--------------------------------------------------------BOSSES:-----------------------------------------------------
+RaidBTab:AddLabel("NOTE: Zone have to be unlocked")
+
+RaidBTab:AddLabel("Pyecy Village:")
+
+RaidBTab:AddToggle({
+	Name = "Ekune",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Ekune()
+	end    
+})
+
+RaidBTab:AddLabel("Leaf Village:")
+RaidBTab:AddToggle({
+	Name = "Mydera",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Mydera()
+	end    
+})
+RaidBTab:AddLabel("Planet Nomak:")
+RaidBTab:AddToggle({
+	Name = "Buu",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Buu()
+	end    
+})
+
+RaidBTab:AddLabel("Titan District:")
+RaidBTab:AddToggle({
+	Name = "Colossal Giant",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		ColossalGiant()
+	end    
+})
+
+
+RaidBTab:AddLabel("Hunter City:")
+RaidBTab:AddToggle({
+	Name = "Khroddo",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Khroddo()
+	end    
+})
+
+RaidBTab:AddLabel("Sins Kingdom:")
+RaidBTab:AddToggle({
+	Name = "Zoydris",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Zoydris()
+	end    
+})
+
+RaidBTab:AddLabel("Slime Forest:")
+RaidBTab:AddToggle({
+	Name = "Cleison",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Cleison()
+	end    
+})
+
+RaidBTab:AddLabel("Chainsaw City:")
+RaidBTab:AddToggle({
+	Name = "Makina",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Makina()
+	end    
+})
+
+RaidBTab:AddLabel("Slayer Village:")
+RaidBTab:AddToggle({
+	Name = "Mozao",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Muzan()
+	end    
+})
+
+RaidBTab:AddLabel("Bizarre Town:")
+RaidBTab:AddToggle({
+	Name = "Dia",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Dio()
+	end    
+})
+
+RaidBTab:AddLabel("Hollow Dimension:")
+RaidBTab:AddToggle({
+	Name = "Toshyro",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Toshyro()
+	end    
+})
+
+RaidBTab:AddLabel("Academy Zone:")
+RaidBTab:AddToggle({
+	Name = "Deku OFA",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		DekuOFA()
+	end    
+})
+
+RaidBTab:AddLabel("XYZ Province:")
+RaidBTab:AddToggle({
+	Name = "Garou",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Garou()
+	end    
+})
+
+RaidBTab:AddLabel("Clover Kingdom:")
+RaidBTab:AddToggle({
+	Name = "Yami",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Yami()
+	end    
+})
+
+RaidBTab:AddLabel("RAID BOSSES:")
+RaidBTab:AddToggle({
+	Name = "White Beard",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		_G.autoattackWB = Value
+		WhiteBeard()
+		autoattackWB()
+	end    
+})
+
+RaidBTab:AddToggle({
+	Name = "Naruto Six Packs",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		_G.autoattackNSP = Value
+		NarutoSP()
+		autoattackNSP()
+	end    
+})
+
+RaidBTab:AddToggle({
+	Name = "Beerus",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		_G.autoattackBEERUS = Value
+		Beerus()
+		autoattackWB()
+	end    
+})
+
+RaidBTab:AddToggle({
+	Name = "Eren Final Form",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		_G.autoattackEFF = Value
+		ErenFinal()
+		autoattackEFF()
+	end    
+})
+
+RaidBTab:AddToggle({
+	Name = "Gon Adult",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		ErenFinal()
+	end    
+})
+
+RaidBTab:AddToggle({
+	Name = "Demon Meliodas",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		MeliodasDemon()
+	end    
+})
+
+RaidBTab:AddToggle({
+	Name = "Rimuru",
+	Default = false,
+	Callback = function(Value)
+		_G.attackMob = Value
+		Rimuru()
+	end    
+})
+-------------------------------------------------------FARM ALL:------------------------------------------------------
+
+FarmTab:AddLabel("AURAS:")
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Pyecy Village",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllPyecy()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Leaf Village",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllLeaf()
+	end    
+})
+
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Planet Nomak",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllNomak()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Titan District",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllTitan()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Hunter City",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllHunter()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Sins Kingdom",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllSins()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Slime Forest",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllSlime()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Chainsaw City",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllChainsaw()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Slayer Village",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllSlayer()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Bizarre Town",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllJojo()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Hollow Dimension",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllHollow()
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura Academy Zone",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllAcademy()
+	end
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Aura XYZ Zone",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllXYZ()
+	end
+})
+
+FarmTab:AddToggle({
+	Name = "Autofarm Clover Zone",
+	Default = false,
+	Callback = function(Value)
+		getgenv().bandit = Value
+		_G.attackMob = Value
+		attackAllClover()
+	end
+})
+
+-- Toogles
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Clicker",
+	Default = false,
+	Callback = function(Value)
+		_G.autoClick = Value
+		autoClick()
+	end    
+})
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Class Up",
+	Default = false,
+	Callback = function(Value)
+		_G.autoClass = Value
+		autoClass()
+	end    
+})
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Buy Skill",
+	Default = false,
+	Callback = function(Value)
+		_G.autoSkill = Value
+		autoSkill()
+	end    
+})
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Claim Reward",
+	Default = false,
+	Callback = function(Value)
+		_G.autoClaimReward = Value
+		autoClaimReward()
+	end    
+})
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Upgrade Sword",
+	Default = false,
+	Callback = function(Value)
+		_G.autoUpgSword = Value
+		autoUpgSword()
+	end    
+})
+
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Claim Quests",
+	Default = false,
+	Callback = function(Value)
+		_G.autoClaimQuest = Value
+		autoClaimQuest()
+	end    
+})
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Claim Achievements",
+	Default = false,
+	Callback = function(Value)
+		_G.autoClaimAch = Value
+		autoClaimAch()
+	end    
+})
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Buy Auras",
+	Default = false,
+	Callback = function(Value)
+		_G.autoBuyAuras = Value
+		autoBuyAuras()
+	end    
+})
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Buy Passives",
+	Default = false,
+	Callback = function(Value)
+		_G.autoBuyPassive = Value
+		autoBuyPassive()
+	end    
+})
+---------------------------------------------------------------------------------------------------------------------
+_G.openEgg = true
+_G.selectedEgg = "Pyecy Village"
+local eggsTable = {}
+
+for i,v in pairs(game:GetService("Workspace")["_EGGS"]:GetChildren()) do
+	table.insert(eggsTable, v.Name)
+end
+
+EggsTab:AddDropdown({
+	Name = "Select an Egg",
+	Default = "Pyecy Village",
+	Options = eggsTable,
+	Callback = function(Value)
+		_G.selectedEgg = Value
+	end    
+})
+
+function OpenEgg()
+	while _G.openEgg == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"BuyHeroes",_G.selectedEgg})
+		wait(0.01)
+	 end
+end
+
+EggsTab:AddToggle({
+	Name = "Auto Buy Egg",
+	Default = false,
+	Callback = function(Value)
+		_G.openEgg = Value
+		OpenEgg()
+	end 
+})
+
+local Section = EggsTab:AddSection({
+	Name = "Teleport To Eggs"
+})
+
+_G.selectedEggTP = ""
+
+EggsTab:AddDropdown({
+	Name = "Please choose an egg to teleport to",
+	Default = "...",
+	Options = eggsTable,
+	Callback = function(Value)
+		_G.selectedEggTP = Value
+	end    
+})
+
+EggsTab:AddButton({
+	Name = "Teleport To Egg",
+	Callback = function()
+      	for i,v in pairs(game:GetService("Workspace")["_EGGS"][_G.selectedEggTP]:GetChildren()) do
+			if v.Name == "Range" and v:IsA('Part') then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+			end
+		end
+  	end    
+})
+
+
+---------------------------------------------------------------------------------------------------------------------
+_G.selectedPotion = ""
+_G.autoUsePotion = true
+
+PotionsTab:AddDropdown({
+	Name = "Select a Potion",
+	Default = "...",
+	Options = {"energy", "lucky", "damage", "souls"},
+	Callback = function(Value)
+		_G.selectedPotion = Value
+	end
+})
+
+function UseSelectedPotion()
+	while _G.autoUsePotion == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Potions",_G.selectedPotion})
+		wait(0.01)
+	end
+end
+
+PotionsTab:AddToggle({
+	Name = "Auto Use Potion",
+	Default = false,
+	Callback = function(Value)
+		_G.autoUsePotion = Value
+		UseSelectedPotion()
+	end   
+})
+
+PotionsTab:AddLabel('If you wanna use multiple ones:')
+
+function autoUseEnergyP()
+	while _G.autoUseEnergyP == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Potions",_G.selectedPotion})
+		wait(0.01)
+	end
+end
+PotionsTab:AddToggle({
+	Name = "Auto Use Energy Potion",
+	Default = false,
+	Callback = function(Value)
+		_G.autoUseEnergyP = Value
+		autoUseEnergyP()
+	end   
+})
+
+function autoUseSoulsP()
+	while _G.autoUseSoulsP == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Potions",_G.selectedPotion})
+		wait(0.01)
+	end
+end
+PotionsTab:AddToggle({
+	Name = "Auto Use Souls Potion",
+	Default = false,
+	Callback = function(Value)
+		_G.autoUseSoulsP = Value
+		autoUseSoulsP()
+	end    
+})
+
+function autoUseDamageP()
+	while _G.autoUseDamageP == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Potions",_G.selectedPotion})
+		wait(0.01)
+	end
+end
+PotionsTab:AddToggle({
+	Name = "Auto Use Damage Potion",
+	Default = false,
+	Callback = function(Value)
+		_G.autoUseDamageP = Value
+		autoUseDamageP()
+	end    
+})
+
+function autoUseLuckyP()
+	while _G.autoUseLuckyP == true do
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Potions",_G.selectedPotion})
+		wait(0.01)
+	end
+end
+PotionsTab:AddToggle({
+	Name = "Auto Use Lucky Potion",
+	Default = false,
+	Callback = function(Value)
+		_G.autoUseLuckyP = Value
+		autoUseLuckyP()
+	end    
+})
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+_G.selectedMap = "1"
+
+TPTab:AddLabel("NOTE: Zones have to be unlocked")
+
+TPTab:AddDropdown({
+	Name = "Select a Map",
+	Default = "1",
+	Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"},
+	Callback = function(Value)
+		_G.selectedMap = Value
+	end    
+})
+
+TPTab:AddButton({
+	Name = "Teleport",
+	Default = false,
+	Callback = function(Value)
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Teleport",_G.selectedMap})
+	end    
+})
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+UtiTab:AddButton({
+	Name = "Anti AFK",
+	Default = false,
+	Callback = function(Value)
+		wait(0.5)local ba=Instance.new("ScreenGui")
+		local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+		local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+		ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+		ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+		ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+		ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti AFK Script"ca.TextColor3=Color3.new(0,1,1)
+		ca.TextSize=22;da.Parent=ca
+		da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+		da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+		_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+		_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made By Kyko Hub"
+		_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+		ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+		ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+		ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+		game:service'Players'.LocalPlayer.Idled:connect(function()
+		bb:CaptureController()bb:ClickButton2(Vector2.new())
+		ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
+	end
+})
+
+UtiTab:AddSlider({
+	Name = "Change Walk Speed",
+	Min = 1,
+	Max = 150,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "",
+	Callback = function(Value)
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
+UtiTab:AddSlider({
+	Name = "Change Jump Power",
+	Min = 1,
+	Max = 300,
+	Default = 50,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "",
+	Callback = function(Value)
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end    
+})
+
+UtiTab:AddButton({
+	Name = "Fly GUI",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet(('https://pastebin.com/raw/NMCkujLt')))()
+	end
+})
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+_G.webhookCooldown = 10
+_G.webhookOn = true
+_G.webhookURL = ""
+
+WBTab:AddTextbox({
+	Name = "Enter webhook URL",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		_G.webhookURL = Value
+	end	  
+})
+
+WBTab:AddSlider({
+	Name = "Change Cooldown",
+	Min = 10,
+	Max = 1000,
+	Default = 10,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "seconds",
+	Callback = function(Value)
+		_G.webhookCooldown = Value
+	end    
+})
+
+function sendWebhook()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/UpYrQc0J')))()
+end
+
+
+WBTab:AddToggle({
+	Name = "Auto Send Webhook",
+	Default = false,
+	Callback = function(Value)
+		_G.webhookOn = Value
+		sendWebhook()
+	end    
+})
+
+WBTab:AddLabel('WEBHOOKS ARE LAGGY AND MIGHT NOT WORK FOR ALL.')
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_G.meteorIsland = 0
+_G.autofarmMeteor = true
+
+function getMeteorIsland()
+    for i,v in pairs(game:GetService("Workspace")["_METEORS"]:GetChildren()) do
+        if v:IsA('Model') then
+            for i, v in pairs(v:GetChildren()) do
+                if v.Name == "_stats" and v:IsA('Folder') then
+                    for i,v in pairs(v:GetChildren()) do
+                        if v.Name == "island" then
+                            _G.meteorIsland = v.Value
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function tpToMeteor()
+	for i,v in pairs(game:GetService("Workspace")["_METEORS"]:GetChildren()) do
+		if v:IsA('Model') then
+			for i, v in pairs(v:GetChildren()) do
+				if v.Name == "root" then
+					while _G.autofarmMeteor == true do
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+						wait()
+					end
+				end
+			end
+		end
+	end
+end
+
+MeteorsTab:AddToggle({
+	Name = "Auto Farm Meteor",
+	Default = false,
+	Callback = function(Value)
+		_G.autofarmMeteor = Value
+		while _G.autofarmMeteor == true do
+		getMeteorIsland()
+		game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Teleport",_G.meteorIsland})
+		tpToMeteor()
+		wait(10)
+		end
+	end    
+})
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- local InfoTab = Window:MakeTab({
+-- 	Name = "Informations",
+-- 	Icon = "rbxassetid://4483345998",
+-- 	PremiumOnly = false
+-- })
+
+-- local Section = InfoTab:AddSection({
+-- 	Name = "Trials"
+-- })
+-- local easyLeft = InfoTab:AddLabel("Easy Time Trial Left: Loading...")
+-- local mediumLeft = InfoTab:AddLabel("Medium Time Trial Left: Loading...")
+
+-- function updEasy()
+-- while wait() do
+-- 	for i,v in pairs(game:GetService("ReplicatedStorage")["_SERVER"].Trial.Easy:GetChildren()) do
+-- 	    if v.Name == "TimeToOpen" then
+-- 	    	easyLeft:Set("Easy Time Trial Left: "..v.Value)
+--  	   end
+-- 	end
+-- end
+-- end
+
+-- function updMedium()
+-- while wait() do
+-- 	for i,v in pairs(game:GetService("ReplicatedStorage")["_SERVER"].Trial.Medium:GetChildren()) do
+-- 	    if v.Name == "TimeToOpen" then
+-- 	    	mediumLeft:Set("Medium Time Trial Left: "..v.Value)
+--  	   end
+-- 	end
+-- end
+-- end
+
+-- updMedium()
+-- updEasy()
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------GRIMORIES--------------------------------------------- 
+_G.autoGrim = true
+_G.whatGrim = ""
+
+AutomaticsTab:AddDropdown({
+	Name = "Selected a Type",
+	Default = "None",
+	Options = {"Coins", "Robux"},
+	Callback = function(Value)
+		_G.whatGrim = Value
+	end
+})
+
+function autoGrim()
+	while _G.autoGrim == true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39546.6133, 7.75431013, 599.622009, 2.21133232e-05, -0.946120381, 0.323815167, 1, 2.21133232e-05, -3.68058681e-06, -3.68058681e-06, 0.323815167, 0.946120381)
+		if _G.whatGrim == "Coins" then
+			game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Grimoire","Normal"})
+		end
+		if _G.whatGrim == "Robux" then
+			game:GetService("ReplicatedStorage").Remotes.Server:FireServer({"Grimoire","Robux"})
+		end
+	wait()
+	end
+end
+
+AutomaticsTab:AddToggle({
+	Name = "Auto Buy Grimoires",
+	Default = false,
+	Callback = function(Value)
+		_G.autoGrim = Value
+		autoGrim()
+	end    
+})
+
+--------------------------------------------------------------------------------------------------
+
+OrionLib:Init()
